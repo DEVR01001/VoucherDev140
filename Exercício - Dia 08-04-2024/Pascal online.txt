@@ -1,0 +1,28 @@
+Pascal online
+
+Nome: 
+
+Program HelloWorld(output);
+var nome :String;
+begin       
+  writeln('Bom dia');
+  writeln('Digite seu nome:');
+  read(nome);
+  writeln('Seu nome é ', nome);
+  
+end.
+
+Numero:
+
+Program HelloWorld(output);
+var n1, n2, result :integer;
+begin       
+  writeln('Bom dia');
+  writeln('Digite so primeiro numero:' );
+  read(n1);
+  writeln('Digite o segundo numero: ');5
+  read(n2);
+  result := n1*n2;
+  writeln('O resultado é ', result);
+  
+end.

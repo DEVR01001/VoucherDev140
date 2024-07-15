@@ -1,0 +1,33 @@
+Pascal - Calculo da área das formas
+
+Program HelloWorld(output);
+
+var lado,  result, baser, alturar, resultr, baset, alturat, raio: Integer;
+var resultt, resultc: real;
+begin
+    
+  writeln('Vamos calcular a área do quadrado!!');
+  writeln('Digite o lado do quadrado: ');
+  read(lado);
+  result := (lado*lado);
+  writeln('A área do quadrado é: ', result);
+  writeln('Agora vamos calcular a área do retângulo!!');
+  writeln('Digite a base do retângulo: ');
+  read(baser);
+  writeln('Digite a altura do retângulo: ');
+  read(alturar);
+  resultr := (baser*alturar);
+  writeln('A área do retângulo é: ', resultr);
+  writeln('Vamos calcular agora a área do trinângul!!');
+  writeln('Digite a base do triângulo: ');
+  read(baset);
+  writeln('Digite a altura do triângulo: ');
+  read(alturat);
+  resultt := ((baset*alturat)/2);
+  writeln('O resultado da área do triângulo é: ', resultt);
+  writeln('Vamos calcular agora a área do circulo!!');
+  writeln('Digite o raio do circulo: ');
+  read(raio);
+  resultc := (raio*raio*3.14);
+  writeln('O resultado da área do circulo é', resultc);
+end.
